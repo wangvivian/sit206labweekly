@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64FB48D2205E226600742491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB48D1205E226600742491 /* AppDelegate.swift */; };
+		64FB48D4205E226600742491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB48D3205E226600742491 /* ViewController.swift */; };
+		64FB48D7205E226600742491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64FB48D5205E226600742491 /* Main.storyboard */; };
+		64FB48D9205E226600742491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FB48D8205E226600742491 /* Assets.xcassets */; };
+		64FB48DC205E226600742491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64FB48DA205E226600742491 /* LaunchScreen.storyboard */; };
+		64FB48E7205E226700742491 /* lightonoffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB48E6205E226700742491 /* lightonoffTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64FB48E3205E226700742491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64FB48C6205E226600742491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64FB48CD205E226600742491;
+			remoteInfo = lightonoff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64FB48CE205E226600742491 /* lightonoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lightonoff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FB48D1205E226600742491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64FB48D3205E226600742491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64FB48D6205E226600742491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64FB48D8205E226600742491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64FB48DB205E226600742491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64FB48DD205E226600742491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64FB48E2205E226700742491 /* lightonoffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lightonoffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FB48E6205E226700742491 /* lightonoffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightonoffTests.swift; sourceTree = "<group>"; };
+		64FB48E8205E226700742491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64FB48CB205E226600742491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FB48DF205E226700742491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64FB48C5205E226600742491 = {
+			isa = PBXGroup;
+			children = (
+				64FB48D0205E226600742491 /* lightonoff */,
+				64FB48E5205E226700742491 /* lightonoffTests */,
+				64FB48CF205E226600742491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64FB48CF205E226600742491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64FB48CE205E226600742491 /* lightonoff.app */,
+				64FB48E2205E226700742491 /* lightonoffTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64FB48D0205E226600742491 /* lightonoff */ = {
+			isa = PBXGroup;
+			children = (
+				64FB48D1205E226600742491 /* AppDelegate.swift */,
+				64FB48D3205E226600742491 /* ViewController.swift */,
+				64FB48D5205E226600742491 /* Main.storyboard */,
+				64FB48D8205E226600742491 /* Assets.xcassets */,
+				64FB48DA205E226600742491 /* LaunchScreen.storyboard */,
+				64FB48DD205E226600742491 /* Info.plist */,
+			);
+			path = lightonoff;
+			sourceTree = "<group>";
+		};
+		64FB48E5205E226700742491 /* lightonoffTests */ = {
+			isa = PBXGroup;
+			children = (
+				64FB48E6205E226700742491 /* lightonoffTests.swift */,
+				64FB48E8205E226700742491 /* Info.plist */,
+			);
+			path = lightonoffTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64FB48CD205E226600742491 /* lightonoff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FB48EB205E226700742491 /* Build configuration list for PBXNativeTarget "lightonoff" */;
+			buildPhases = (
+				64FB48CA205E226600742491 /* Sources */,
+				64FB48CB205E226600742491 /* Frameworks */,
+				64FB48CC205E226600742491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lightonoff;
+			productName = lightonoff;
+			productReference = 64FB48CE205E226600742491 /* lightonoff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64FB48E1205E226700742491 /* lightonoffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FB48EE205E226700742491 /* Build configuration list for PBXNativeTarget "lightonoffTests" */;
+			buildPhases = (
+				64FB48DE205E226700742491 /* Sources */,
+				64FB48DF205E226700742491 /* Frameworks */,
+				64FB48E0205E226700742491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64FB48E4205E226700742491 /* PBXTargetDependency */,
+			);
+			name = lightonoffTests;
+			productName = lightonoffTests;
+			productReference = 64FB48E2205E226700742491 /* lightonoffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64FB48C6205E226600742491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "王子璇";
+				TargetAttributes = {
+					64FB48CD205E226600742491 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					64FB48E1205E226700742491 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64FB48CD205E226600742491;
+					};
+				};
+			};
+			buildConfigurationList = 64FB48C9205E226600742491 /* Build configuration list for PBXProject "lightonoff" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64FB48C5205E226600742491;
+			productRefGroup = 64FB48CF205E226600742491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64FB48CD205E226600742491 /* lightonoff */,
+				64FB48E1205E226700742491 /* lightonoffTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64FB48CC205E226600742491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FB48DC205E226600742491 /* LaunchScreen.storyboard in Resources */,
+				64FB48D9205E226600742491 /* Assets.xcassets in Resources */,
+				64FB48D7205E226600742491 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FB48E0205E226700742491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64FB48CA205E226600742491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FB48D4205E226600742491 /* ViewController.swift in Sources */,
+				64FB48D2205E226600742491 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FB48DE205E226700742491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FB48E7205E226700742491 /* lightonoffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64FB48E4205E226700742491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64FB48CD205E226600742491 /* lightonoff */;
+			targetProxy = 64FB48E3205E226700742491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64FB48D5205E226600742491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FB48D6205E226600742491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64FB48DA205E226600742491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FB48DB205E226600742491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64FB48E9205E226700742491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64FB48EA205E226700742491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64FB48EC205E226700742491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = lightonoff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01.lightonoff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64FB48ED205E226700742491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = lightonoff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01.lightonoff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64FB48EF205E226700742491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 829N645J2K;
+				INFOPLIST_FILE = lightonoffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01.lightonoffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightonoff.app/lightonoff";
+			};
+			name = Debug;
+		};
+		64FB48F0205E226700742491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 829N645J2K;
+				INFOPLIST_FILE = lightonoffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01.lightonoffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightonoff.app/lightonoff";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64FB48C9205E226600742491 /* Build configuration list for PBXProject "lightonoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FB48E9205E226700742491 /* Debug */,
+				64FB48EA205E226700742491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FB48EB205E226700742491 /* Build configuration list for PBXNativeTarget "lightonoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FB48EC205E226700742491 /* Debug */,
+				64FB48ED205E226700742491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FB48EE205E226700742491 /* Build configuration list for PBXNativeTarget "lightonoffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FB48EF205E226700742491 /* Debug */,
+				64FB48F0205E226700742491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64FB48C6205E226600742491 /* Project object */;
+}
