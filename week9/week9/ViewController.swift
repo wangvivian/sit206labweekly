@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func didpopballoon(_ sender: UIButton) {
-        sender.setImage(UIImage(named: "exploded"), for: .normal)
+        sender.setImage(UIImage(named: "popped"), for: .normal)
         UIView.animate(withDuration: 0.4, animations: {sender.alpha = 0}, completion: {(true) in sender.removeFromSuperview()})
         
     }
