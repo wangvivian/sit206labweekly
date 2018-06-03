@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		644B4C7020C3A498007ACFFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644B4C6F20C3A498007ACFFE /* AppDelegate.swift */; };
 		644B4C7220C3A498007ACFFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644B4C7120C3A498007ACFFE /* ViewController.swift */; };
-		644B4C7520C3A498007ACFFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644B4C7320C3A498007ACFFE /* Main.storyboard */; };
+		644B4C7520C3A498007ACFFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644B4C7320C3A498007ACFFE /* Main.storyboard */; settings = {ASSET_TAGS = (mapview, tableview, ); }; };
 		644B4C7720C3A499007ACFFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644B4C7620C3A499007ACFFE /* Assets.xcassets */; };
 		644B4C7A20C3A499007ACFFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644B4C7820C3A499007ACFFE /* LaunchScreen.storyboard */; };
 		644B4C8220C3A61E007ACFFE /* TblViewControllerTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644B4C8120C3A61E007ACFFE /* TblViewControllerTrips.swift */; };
 		644B4C8420C3A637007ACFFE /* TblViewControllerTripInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644B4C8320C3A637007ACFFE /* TblViewControllerTripInfo.swift */; };
-		644B4C8620C3A723007ACFFE /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644B4C8520C3A723007ACFFE /* Trip.swift */; };
+		64C010C520C3D777003CE30C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C010C420C3D777003CE30C /* MapKit.framework */; };
+		64C010C720C3D88A003CE30C /* TripsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C010C620C3D88A003CE30C /* TripsMapViewController.swift */; };
+		64C010CB20C3E11F003CE30C /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C010CA20C3E11F003CE30C /* Trip.swift */; };
+		64C010CF20C3EB21003CE30C /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C010CE20C3EB21003CE30C /* TripDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +30,10 @@
 		644B4C7B20C3A499007ACFFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		644B4C8120C3A61E007ACFFE /* TblViewControllerTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TblViewControllerTrips.swift; sourceTree = "<group>"; };
 		644B4C8320C3A637007ACFFE /* TblViewControllerTripInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TblViewControllerTripInfo.swift; sourceTree = "<group>"; };
-		644B4C8520C3A723007ACFFE /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		64C010C420C3D777003CE30C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		64C010C620C3D88A003CE30C /* TripsMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsMapViewController.swift; sourceTree = "<group>"; };
+		64C010CA20C3E11F003CE30C /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trip.swift; path = ../../../../../Trip.swift; sourceTree = "<group>"; };
+		64C010CE20C3EB21003CE30C /* TripDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C010C520C3D777003CE30C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +53,7 @@
 			children = (
 				644B4C6E20C3A498007ACFFE /* week 5 */,
 				644B4C6D20C3A498007ACFFE /* Products */,
+				64C010C320C3D777003CE30C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,14 +71,24 @@
 				644B4C6F20C3A498007ACFFE /* AppDelegate.swift */,
 				644B4C7120C3A498007ACFFE /* ViewController.swift */,
 				644B4C7320C3A498007ACFFE /* Main.storyboard */,
-				644B4C8520C3A723007ACFFE /* Trip.swift */,
+				64C010C620C3D88A003CE30C /* TripsMapViewController.swift */,
+				64C010CA20C3E11F003CE30C /* Trip.swift */,
 				644B4C8120C3A61E007ACFFE /* TblViewControllerTrips.swift */,
+				64C010CE20C3EB21003CE30C /* TripDetailsViewController.swift */,
 				644B4C8320C3A637007ACFFE /* TblViewControllerTripInfo.swift */,
 				644B4C7620C3A499007ACFFE /* Assets.xcassets */,
 				644B4C7820C3A499007ACFFE /* LaunchScreen.storyboard */,
 				644B4C7B20C3A499007ACFFE /* Info.plist */,
 			);
 			path = "week 5";
+			sourceTree = "<group>";
+		};
+		64C010C320C3D777003CE30C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C010C420C3D777003CE30C /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,12 +117,21 @@
 		644B4C6420C3A498007ACFFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					mapview,
+					tableview,
+				);
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "王子璇";
 				TargetAttributes = {
 					644B4C6B20C3A498007ACFFE = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -144,10 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644B4C8620C3A723007ACFFE /* Trip.swift in Sources */,
+				64C010CB20C3E11F003CE30C /* Trip.swift in Sources */,
+				64C010C720C3D88A003CE30C /* TripsMapViewController.swift in Sources */,
 				644B4C8220C3A61E007ACFFE /* TblViewControllerTrips.swift in Sources */,
 				644B4C7220C3A498007ACFFE /* ViewController.swift in Sources */,
 				644B4C8420C3A637007ACFFE /* TblViewControllerTripInfo.swift in Sources */,
+				64C010CF20C3EB21003CE30C /* TripDetailsViewController.swift in Sources */,
 				644B4C7020C3A498007ACFFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

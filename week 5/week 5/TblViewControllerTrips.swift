@@ -13,7 +13,7 @@ class TblViewControllerTrips: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Utilities.loadTrips()
+        Trips.loadTrips()
         self.tableView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
 
         // Uncomment the following line to preserve selection between presentations
@@ -37,7 +37,7 @@ class TblViewControllerTrips: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return Utilities.trips.count;
+        return Trips.trips.count;
     }
 
     
@@ -45,9 +45,10 @@ class TblViewControllerTrips: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tripCell", for: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = "\(Utilities.trips[indexPath.row].tripDestination),\(Utilities.trips[indexPath.row].tripDestination)"
-        cell.detailTextLabel?.text = "\(Utilities.dateFormatter.string(from: Utilities.trips[indexPath.row].tripDate))"
-        cell.imageView?.image = Utilities.trips[indexPath.row].destinationImage
+        cell.textLabel?.text = "\(Trips.trips[indexPath.row].tripDestination),\(Trips.trips[indexPath.row].tripDestination)"
+       //cell.detailTextLabel?.text = "\(Trips.tripDate.string(from: Trips.trips[indexPath.row].tripDate))"
+        cell.imageView?.image = Trips.trips[indexPath.row].img
+        
 
         return cell
     }

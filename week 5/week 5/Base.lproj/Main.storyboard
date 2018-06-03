@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5ZQ-0Q-jbe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ngG-E8-4em">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -34,15 +35,16 @@
                             <outlet property="delegate" destination="5ZQ-0Q-jbe" id="0Xr-J9-g0Q"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="0ST-Fq-UOE"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-qW-upQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-234" y="96"/>
+            <point key="canvasLocation" x="1644" y="95.802098950524751"/>
         </scene>
-        <!--Tbl View Controller Trip Info-->
+        <!--Trip Details View Controller-->
         <scene sceneID="8qs-IA-Nhz">
             <objects>
-                <tableViewController id="4Zn-Bq-S2t" customClass="TblViewControllerTripInfo" customModule="week_5" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="4Zn-Bq-S2t" customClass="TripDetailsViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="tripinfo" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="vJu-Xm-kNQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,6 +63,9 @@
                                                     <rect key="frame" x="62" y="6" width="34" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Save"/>
+                                                    <connections>
+                                                        <action selector="saveTrip:" destination="4Zn-Bq-S2t" eventType="touchUpInside" id="6GC-74-ho1"/>
+                                                    </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejl-7g-H9z">
                                                     <rect key="frame" x="248" y="6" width="48" height="30"/>
@@ -150,10 +155,58 @@
                             <outlet property="delegate" destination="4Zn-Bq-S2t" id="gPo-kG-kzV"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="tripDate" destination="DWi-YU-v9v" id="YYd-M5-j5M"/>
+                        <outlet property="tripDestination" destination="sdX-5W-NNV" id="ljP-yN-Fve"/>
+                        <outlet property="tripDuration" destination="VED-p4-4Jt" id="yS9-72-UsS"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qJK-N3-Enh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="520.79999999999995" y="262.21889055472263"/>
+            <point key="canvasLocation" x="2399.1999999999998" y="262.21889055472263"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="VVr-9b-M5l">
+            <objects>
+                <viewController id="MiV-Q5-ivL" customClass="TripsMapViewController" customModule="week_5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pIx-Fd-VIS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CWB-lM-cIP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="m0k-1H-6A4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="7Hy-pU-nCg"/>
+                    <connections>
+                        <outlet property="tripsMap" destination="CWB-lM-cIP" id="WiY-wI-gGo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v5r-dC-8Di" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1744.8" y="721.88905547226398"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="q2X-NC-2UT">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ngG-E8-4em" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" restorationIdentifier="Mapview" insetsLayoutMarginsFromSafeArea="NO" id="isP-1k-BfH">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="5ZQ-0Q-jbe" kind="relationship" relationship="viewControllers" id="rTI-Ih-i8r"/>
+                        <segue destination="MiV-Q5-ivL" kind="relationship" relationship="viewControllers" id="48U-J6-S7h"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qaG-FB-I2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704.79999999999995" y="408.84557721139436"/>
         </scene>
     </scenes>
 </document>
